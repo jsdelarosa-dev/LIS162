@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* === DARK MODE OVERRIDES FOR JETSTREAM / LIVEWIRE FORMS === */
+
+.dark-form input,
+.dark-form textarea,
+.dark-form select {
+    background-color: #020617; /* slate-950 */
+    color: #ffffff;
+    border-color: #334155; /* slate-700 */
+}
+
+.dark-form input::placeholder {
+    color: #94a3b8; /* slate-400 */
+}
+
+.dark-form label {
+    color: #e5e7eb; /* gray-200 */
+}
+
+.dark-form .text-gray-500,
+.dark-form .text-gray-600 {
+    color: #94a3b8 !important;
+}
+
+.dark-form button {
+    background-color: #dc2626; /* red-600 */
+}
+
+.dark-form button:hover {
+    background-color: #b91c1c; /* red-700 */
+}
